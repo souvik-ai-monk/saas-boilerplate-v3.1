@@ -1,8 +1,13 @@
 pnpm version: 9.5.0
-px version:4.0.1
 docker version: 26.1.4
+nx version: 19.0.1
 
 saas version: 3.1
+
+
+create /packages/backend/.env
+create .env
+using .env.shared
 
 Run:
 pnpm install
